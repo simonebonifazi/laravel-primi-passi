@@ -15,9 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
+    $hello = 'Hello World';
+    $items = [
+        'Home',
+        'Search',
+        'Community',
+        'About us',
+        'Blog',
+        'Log in',
+    ];
 
-
-    return view('home', ['hello' => 'Hello World']);
+    return view('home', compact('hello', 'items'));
 });
 
 

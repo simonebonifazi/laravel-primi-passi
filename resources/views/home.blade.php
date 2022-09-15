@@ -11,12 +11,9 @@
 <body>
     <header>
         <ul>
-            <li>HOME</li>
-            <li>Search</li>
-            <li>Community</li>
-            <li>About us</li>
-            <li>Blog</li>
-            <li>Log in</li>
+            @foreach($items as $item)
+            <li>{{$item}}</li>
+            @endforeach
         </ul>
     </header>
 
