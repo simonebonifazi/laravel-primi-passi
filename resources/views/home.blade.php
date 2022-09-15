@@ -9,6 +9,17 @@
 </head>
 
 <body>
+    <header>
+        <ul>
+            <li>HOME</li>
+            <li>Search</li>
+            <li>Community</li>
+            <li>About us</li>
+            <li>Blog</li>
+            <li>Log in</li>
+        </ul>
+    </header>
+
     <h1> Hello World</h1>
 </body>
 
